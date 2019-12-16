@@ -231,7 +231,7 @@
         env:
           PGID: '1000'
           PUID: '1000'
-          VERSION: '{{updateplex.stdout}}'
+          VERSION: 'PLEXINC'
           PLEX_CLAIM: '{{claim.stdout}}'
           ADVERTISE_IP: '{{customConnections}}'
           NVIDIA_VISIBLE_DEVICES: 'all'
@@ -269,7 +269,7 @@
         env:
           PGID: '1000'
           PUID: '1000'
-          VERSION: '{{updateplex.stdout}}'
+          VERSION: 'PLEXINC'
           PLEX_CLAIM: '{{claim.stdout}}'
           ADVERTISE_IP: '{{customConnections}}'
           NVIDIA_VISIBLE_DEVICES: 'all'
