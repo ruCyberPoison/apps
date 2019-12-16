@@ -28,7 +28,7 @@
         extport6: '32413'
         intport7: '32414/udp'
         extport7: '32414'
-        image: 'plexinc/pms-docker:latest'
+        image: 'linuxserver/plex:latest'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
